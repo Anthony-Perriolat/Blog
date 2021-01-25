@@ -2,6 +2,7 @@
 
 
 <?php
+include "config/database.php";
 $metaTitle = "index";
 $metadescription = "Ce-ci est une page index";
 $routes = array("header" => "pages/header.php", "footer" => "pages/footer.php", "acceuil" => "pages/acceuil.php", "moncv" => "pages/moncv.php", "hobbie" => "pages/hobbie.php", "contact" => "pages/contact.php", "404" => "pages/404.php" );
