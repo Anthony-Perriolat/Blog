@@ -1,5 +1,6 @@
 <?php
-function lastBlogPosts(Bdd) {
+function lastBlogPosts($dataBase) {
 
-    return $article();
+
+    return [];
 }
