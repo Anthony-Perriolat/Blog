@@ -1,3 +1,3 @@
 <?php
-$pdo = new PDO('mysql:host=localhost;dbname=blog_articles.sql', toto,perriolat);
+$pdo = new PDO('mysql:host=localhost;dbname=blog;charset=utf8', 'renkce','perriolat');
 ?>
