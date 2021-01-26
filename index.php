@@ -18,12 +18,11 @@ include $routes['header'];
 
 if (isset($action))  {
     if (!isset($routes[$action])) {
-        $fichier = '404.php';
+        require 'ressources/views/erros/404.php';
     }
     else {
         $fichier = $routes[$action];
     }
-
 }
 else {
     $fichier = $routes['home'];
