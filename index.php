@@ -8,13 +8,10 @@ ini_set('log_errors',false);
 include "config/database.php";
 $metaTitle = "index";
 $metadescription = "Ce-ci est une page index";
-$routes = array("header" => "ressources/views/layouts/header.php",
-                "footer" => "ressources/views/layouts/footer.php",
-                "home" => "homeController.php"
+$routes = array("home" => "homeController.php"
 );
 $action = filter_input(INPUT_GET, 'action', FILTER_SANITIZE_STRING);
 
-include $routes['header'];
 
 if (isset($action))  {
     if (!isset($routes[$action])) {
@@ -30,6 +27,5 @@ else {
 
 require 'app/controllers/' . $fichier;
 
-require $routes['footer'];
 
 ?>

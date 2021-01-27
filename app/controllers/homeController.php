@@ -2,5 +2,5 @@
 include "app/persistences/blogPostData.php";
 $arrayArticle=lastBlogPosts($Bdd);
 var_dump($arrayArticle);
-echo "bonjour";
+include "ressources/views/home.tpl.php"
 ?>
