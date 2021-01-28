@@ -11,6 +11,20 @@
 
 <header class="mb-5">
 <div style="background: url(https://i.postimg.cc/3N7wnb75/background.jpg)" class="jumbotron bg-cover text-white">
+    <ul class="nav justify-content-end .bg-transparent text-light">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.php">Acceuil</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="index.php?action=blogpost&id=2">Blog</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+    </ul>
     <div class="container py-5 text-center">
         <h1 class="display-4 font-weight-bold">Blog Teste</h1>
         <p class="font-italic mb-0">Bienvenu sur mon blog</p>

@@ -1,6 +1,7 @@
 <?php
-
+$id = intval(filter_input(INPUT_GET, 'id', FILTER_SANITIZE_NUMBER_INT))  ;
 include "app/persistences/blogPostData.php";
-$arrayArticle = blogPostById($Bdd);
+$arrayArticle = blogPostById($Bdd,$id) ;
+$arrayArticleCom = commentsByBlogPost($Bdd,$id);
 
-include "ressources/views/home.tpl.php";
+require "ressources/views/blogPost.tpl.php";

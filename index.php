@@ -9,6 +9,7 @@ include "config/database.php";
 $metaTitle = "index";
 $metadescription = "Ce-ci est une page index";
 $routes = array("home" => "homeController.php"
+    ,'blogpost' => "blogPostController.php"
 );
 $action = filter_input(INPUT_GET, 'action', FILTER_SANITIZE_STRING);
 

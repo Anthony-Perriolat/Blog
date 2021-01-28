@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83f85d7b-0c83-4778-8db3-d7aca340f866" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/controllers/blogPostController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ressources/views/blogPost.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/404.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/homeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/homeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/blogPostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/blogPostController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/persistences/blogPostData.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/persistences/blogPostData.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/views/acceuil.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/views/card.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ressources/views/home.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/views/home.tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/views/layouts/footer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources/views/layouts/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ressources/views/layouts/header.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/ressources/views/layouts/header.tpl.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +84,8 @@
       <workItem from="1611644987988" duration="256000" />
       <workItem from="1611645284119" duration="20089000" />
       <workItem from="1611744241155" duration="56000" />
-      <workItem from="1611744298066" duration="10172000" />
+      <workItem from="1611744298066" duration="10346000" />
+      <workItem from="1611820085577" duration="14404000" />
     </task>
     <servers />
   </component>

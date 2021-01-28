@@ -1,7 +1,7 @@
 
 <?php include "layouts/header.tpl.php"; ?>
-<aside class="d-flex row justify-content-center">
-<?php if (empty($arrayhome)):  ?>   <!-- array empty -->
+<aside class="d-flex row justify-content-center flex-wrap">
+<?php if (empty($arrayhome)):  ?>
     <div class="card-body">
         <p>Cette article est vide</p>
     </div>
@@ -11,7 +11,7 @@
 
     <div class="card" style="width: 18rem;">
         <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title"><?= $row["Title"]?></h5>
             <p class="card-text"><?= $row["Text"]?></p>
             <a href="#" class="btn btn-primary"><?= $row["Pseudo"]?></a>
         </div>
