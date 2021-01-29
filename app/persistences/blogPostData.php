@@ -45,3 +45,7 @@ function blogPostCreate($dataBase,$formTitle,$formPseudo,$formImportance,$formDa
 //
 //
 //}
+
+function blogPostUpdate($dataBase,$formTitle,$formPseudo,$formImportance,$formDateS,$formDateE,$fromText){
+    $dataBase->query("UPDATE Articles SET ");
+}
