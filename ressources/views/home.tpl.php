@@ -12,7 +12,9 @@
     <div class="card" style="width: 18rem;">
         <div class="card-body">
             <h5 class="card-title"><?= $row["Title"]?></h5>
-            <p class="card-text"><?= $row["Text"]?></p>
+            <div class="overflow-hidden">
+            <p class="card-text "><?= $row["Text"]?></p>
+            </div>
             <a href="#" class="btn btn-primary"><?= $row["Pseudo"]?></a>
         </div>
     </div>

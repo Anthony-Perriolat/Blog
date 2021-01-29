@@ -21,50 +21,22 @@
 
                 <!-- Grid column -->
                 <div class="col-md-3 mb-md-0 mb-3">
-
-                    <!-- Links -->
-                    <h5 class="text-uppercase">Links</h5>
-
                     <ul class="list-unstyled">
-                        <li>
-                            <a href="#!">Link 1</a>
-                        </li>
-                        <li>
-                            <a href="#!">Link 2</a>
-                        </li>
-                        <li>
-                            <a href="#!">Link 3</a>
-                        </li>
-                        <li>
-                            <a href="#!">Link 4</a>
-                        </li>
+                    <li class="nav-item ">
+                        <a class="nav-link active" aria-current="page" href="index.php">Acceuil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php?action=blogpost&id=2">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php?action=PostCreate">Crée</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/adminer-4.7.8.php" >Adminer</a>
+                    </li>
                     </ul>
-
                 </div>
-                <!-- Grid column -->
 
-                <!-- Grid column -->
-                <div class="col-md-3 mb-md-0 mb-3">
-
-                    <!-- Links -->
-                    <h5 class="text-uppercase">Links</h5>
-
-                    <ul class="list-unstyled">
-                        <li>
-                            <a href="#!">Link 1</a>
-                        </li>
-                        <li>
-                            <a href="#!">Link 2</a>
-                        </li>
-                        <li>
-                            <a href="#!">Link 3</a>
-                        </li>
-                        <li>
-                            <a href="#!">Link 4</a>
-                        </li>
-                    </ul>
-
-                </div>
                 <!-- Grid column -->
 
             </div>

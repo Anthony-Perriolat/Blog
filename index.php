@@ -8,8 +8,9 @@ ini_set('log_errors',false);
 include "config/database.php";
 $metaTitle = "index";
 $metadescription = "Ce-ci est une page index";
-$routes = array("home" => "homeController.php"
-    ,'blogpost' => "blogPostController.php"
+$routes = array("home" => "homeController.php",
+    'blogpost' => "blogPostController.php",
+    'PostCreate' => "blogPostCreateController.php"
 );
 $action = filter_input(INPUT_GET, 'action', FILTER_SANITIZE_STRING);
 
